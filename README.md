@@ -19,7 +19,7 @@ dz/dt = xy - βz
 
 Estas equações descrevem comportamentos caóticos e são fundamentais para nosso estudo.
 
-## Objetivos do Projeto 🎯
+## Objetivos 🎯
 
 1. **Simulações Numéricas**: Utilizaremos o método de Runge-Kutta para resolver as equações e splines cúbicas para representação gráfica.
 
