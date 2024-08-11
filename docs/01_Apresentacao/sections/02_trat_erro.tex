@@ -1,0 +1,83 @@
+\section{Erro e convergência}
+
+\begin{frame}
+    \frametitle{Abordagem para o Tratamento do Erro}
+    \begin{enumerate}
+        \item O atrator de Lorenz não possui uma \textbf{solução analítica}.
+        \item Usamos a \textbf{solução numérica} com o menor $h$ como referência ``\textbf{exata}''.
+        \item O \textbf{erro} é a diferença entre as soluções numéricas para diferentes $h$ e essa referência.
+    \end{enumerate}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}
+    \frametitle{Tabela de Convergência no método RK4}
+    \scriptsize
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{c c c c c c c c c c}
+    \toprule
+     & $X_{0.01}$ & $Y_{0.01}$ & $Z_{0.01}$ & $X_{0.001}$ & $Y_{0.001}$ & $Z_{0.001}$ & $X_{0.0001}$ & $Y_{0.0001}$ & $Z_{0.0001}$ \\
+    \midrule
+    0  & 0.000 & 1.000 & 1.050 & 0.000 & 1.000 & 1.050 & 0.000 & 1.000 & 1.050 \\
+    1  & 0.095 & 1.003 & 1.023 & 0.010 & 0.999 & 1.047 & 0.001 & 1.000 & 1.050 \\
+    2  & 0.183 & 1.031 & 0.997 & 0.020 & 0.999 & 1.044 & 0.002 & 1.000 & 1.049 \\
+    3  & 0.266 & 1.081 & 0.973 & 0.030 & 0.998 & 1.042 & 0.003 & 1.000 & 1.049 \\
+    4  & 0.346 & 1.152 & 0.951 & 0.039 & 0.998 & 1.039 & 0.004 & 1.000 & 1.049 \\
+    5  & 0.427 & 1.245 & 0.931 & 0.049 & 0.998 & 1.036 & 0.005 & 1.000 & 1.049 \\
+    6  & 0.511 & 1.359 & 0.912 & 0.058 & 0.999 & 1.034 & 0.006 & 1.000 & 1.048 \\
+    7  & 0.598 & 1.495 & 0.896 & 0.068 & 0.999 & 1.031 & 0.007 & 1.000 & 1.048 \\
+    8  & 0.691 & 1.653 & 0.882 & 0.077 & 1.000 & 1.028 & 0.008 & 0.999 & 1.048 \\
+    9  & 0.791 & 1.837 & 0.872 & 0.086 & 1.002 & 1.025 & 0.009 & 0.999 & 1.047 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Tabela de Convergência no método RK4}
+    \end{table}
+\end{frame}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\begin{frame}
+    \frametitle{Diferenças \(\Delta X\), \(\Delta Y\), \(\Delta Z\) no método RK4}
+    \scriptsize % ou \tiny para uma fonte ainda menor
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{c c c c c c c c c}
+    \toprule
+     & \multicolumn{3}{c}{\(\Delta\) entre \(0.01\) e \(0.001\)} & & \multicolumn{3}{c}{\(\Delta\) entre \(0.01\) e \(0.0001\)} \\
+    \cmidrule{2-4} \cmidrule{6-8}
+     & \(\Delta X\) & \(\Delta Y\) & \(\Delta Z\) & & \(\Delta X\) & \(\Delta Y\) & \(\Delta Z\) \\
+    \midrule
+    0  & 0.000 & 0.000 & 0.000 & & 0.000 & 0.000 & 0.000 \\
+    1  & 0.085 & 0.004 & -0.024 & & 0.094 & 0.003 & -0.027 \\
+    2  & 0.163 & 0.032 & -0.047 & & 0.181 & 0.031 & -0.052 \\
+    3  & 0.236 & 0.083 & -0.069 & & 0.263 & 0.081 & -0.076 \\
+    4  & 0.307 & 0.154 & -0.088 & & 0.342 & 0.152 & -0.098 \\
+    5  & 0.378 & 0.247 & -0.105 & & 0.422 & 0.245 & -0.118 \\
+    6  & 0.453 & 0.360 & -0.122 & & 0.505 & 0.359 & -0.136 \\
+    7  & 0.530 & 0.496 & -0.135 & & 0.591 & 0.495 & -0.151 \\
+    8  & 0.614 & 0.653 & -0.146 & & 0.683 & 0.653 & -0.166 \\
+    9  & 0.705 & 0.835 & -0.153 & & 0.782 & 0.838 & -0.175 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Diferenças entre os valores de \(X\), \(Y\) e \(Z\) para diferentes passos de integração}
+    \end{table}
+\end{frame}
+
+
+%------------------------------------------------
+
+
+\begin{frame}
+    \frametitle{Convergência do Erro no Método RK4}
+    \begin{itemize}
+        \item \textbf{Redução do Erro com Passos Menores}: Passos menores no RK4 resultam em valores mais precisos. As diferenças \(\Delta X\), \(\Delta Y\) e \(\Delta Z\) diminuem à medida que o passo de integração é reduzido. 
+        \item \textbf{Convergência do Método RK4}: Passos menores mostram que o RK4 converge para a solução correta. Os valores de \(X\), \(Y\) e \(Z\) tornam-se mais próximos com passos menores.
+    \end{itemize}
+        
+\end{frame}
+%------------------------------------------------

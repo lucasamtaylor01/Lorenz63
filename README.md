@@ -13,6 +13,7 @@ dx/dt = σ(y-x)
 ```math
 dy/dt = x(ρ - z) - y
 ```
+
 ```math
 dz/dt = xy - βz
 ```
@@ -33,3 +34,6 @@ Estas equações descrevem comportamentos caóticos e são fundamentais para nos
 
 Este projeto aplica técnicas matemáticas e computacionais aprendidas em sala para explorar o Atrator de Lorenz.
 
+## Nota de Responsabilidade 📜
+
+Este projeto foi desenvolvido com base em técnicas e metodologias estudadas ao longo do curso. No entanto, o uso deste material é de responsabilidade do usuário. Não me responsabilizo por qualquer caso de plágio ou uso indevido deste conteúdo. Recomendo que o trabalho seja utilizado como referência e que o código seja adaptado às suas necessidades específicas.
