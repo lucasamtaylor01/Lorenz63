@@ -36,4 +36,4 @@ Este projeto aplica técnicas matemáticas e computacionais aprendidas em sala p
 
 ## Nota de Responsabilidade 📜
 
-Este projeto foi desenvolvido com base em técnicas e metodologias estudadas ao longo do curso. No entanto, o uso deste material é de responsabilidade do usuário. Não me responsabilizo por qualquer caso de plágio ou uso indevido deste conteúdo. Recomendo que o trabalho seja utilizado como referência e que o código seja adaptado às suas necessidades específicas.
+O uso deste material é de responsabilidade do usuário. Não me responsabilizo por plágio ou uso indevido. Para mais detalhes, consulte a [licença](LICENSE.md).
