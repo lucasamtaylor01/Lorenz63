@@ -16,3 +16,5 @@ Copyright (c) 2024 Lucas Amaral Taylor e Julio Cezar de Moura Lima
 
 5. **Cláusula de Revisão**  
    O(s) autor(es) se reserva(m) o direito de modificar esta licença a qualquer momento. Quaisquer mudanças não se aplicam retroativamente.
+   
+**Nota:** As instruções e diretrizes utilizadas para a elaboração deste trabalho foram criadas por terceiros e não estão cobertas por esta licença. Elas pertencem exclusivamente aos seus autores originais.
