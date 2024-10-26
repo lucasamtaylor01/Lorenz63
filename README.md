@@ -1,6 +1,6 @@
 # Estudo do Atrator de Lorenz 🌀
 
-Edward Norton Lorenz foi um pioneiro na meteorologia, famoso por desenvolver o modelo de convecção atmosférica conhecido como **Atrator de Lorenz**, introduzido no artigo _Deterministic Nonperiodic Flow_ (1963).
+Este repositório explora o comportamento dinâmico do **Atrator de Lorenz**, um modelo de convecção atmosférica desenvolvido por Edward Norton Lorenz e apresentado em _Deterministic Nonperiodic Flow_ (1963).
 
 ## Modelo de Lorenz 📐
 
