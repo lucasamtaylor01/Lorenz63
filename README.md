@@ -30,10 +30,4 @@ Estas equações descrevem comportamentos caóticos e são fundamentais para nos
 
 1. **Resolução das Equações**: Método de Runge-Kutta.
 2. **Visualização**: Splines cúbicas.
-3. **Sensibilidade**: Método dos Mínimos Quadrados.
-
-Este projeto aplica técnicas matemáticas e computacionais aprendidas em sala para explorar o Atrator de Lorenz.
-
-## Nota de Responsabilidade 📜
-
-O uso deste material é de responsabilidade do usuário. Não me responsabilizo por plágio ou uso indevido. Para mais detalhes, consulte a [licença](LICENSE.md).
+3. **Sensibilidade**: Método dos Mínimos Quadrados
