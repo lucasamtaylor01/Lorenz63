@@ -25,9 +25,10 @@ This project explores numerical solutions and the chaotic behavior of the Lorenz
 
 ```
 Lorenz63/
-├── Lorenz63.ipynb # Main notebook with simulations
-├── README.md # Project documentation
+├── 01_report/ # PDF and LaTeX report (documentation and analysis)
+├── 02_src/ # Source code (Jupyter notebooks, Python scripts)
 ├── LICENSE # MIT License
+└── README.md # Project documentation
 ```
 
 ## 🛠 Dependencies
