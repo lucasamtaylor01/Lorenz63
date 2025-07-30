@@ -4,9 +4,9 @@
 
 The Lorenz system is a simplified model for atmospheric convection introduced by Edward Lorenz in 1963. It consists of three ODEs:
 
-$$dx/dt = \sigma(y − x)$$
-$$dy/dt = x(\rho − z) − y$$
-$$dz/dt = xy − \beta z$$
+$$\frac{dx}{dt} = \sigma(y − x)$$
+$$\frac{dy}{dt} = x(\rho − z) − y$$
+$$\frac{dz}{dt} = xy − \beta z$$
 
 
 This project explores numerical solutions and the chaotic behavior of the Lorenz attractor.
