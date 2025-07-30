@@ -1,8 +1,5 @@
 # Lorenz63 🌀
 
-**Numerical simulation of the Lorenz attractor (1963 model)**  
-Implementation in Jupyter Notebook with dynamic analysis and visualization.
-
 ## 📌 Overview
 
 The Lorenz system is a simplified model for atmospheric convection introduced by Edward Lorenz in 1963. It consists of three ODEs:
